@@ -14,7 +14,7 @@ public class Browsers {
 
 		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Kishore Kumar\\Desktop\\WD8\\Jars\\geckodriver.exe");
 		WebDriver driver1=new FirefoxDriver();
-		driver.get("http://rediff.com");
+		driver1.get("http://rediff.com");
 		driver1.manage().window().maximize();
 		
 		
