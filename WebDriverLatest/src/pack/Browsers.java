@@ -12,6 +12,10 @@ public class Browsers {
 		driver.get("http://rediff.com");
 		driver.manage().window().maximize();
 
+		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Kishore Kumar\\Desktop\\WD8\\Jars\\geckodriver.exe");
+		WebDriver driver1=new FirefoxDriver();
+		driver.get("http://rediff.com");
+		driver.manage().window().maximize();
 	}
 
 }
